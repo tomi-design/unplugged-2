@@ -120,10 +120,23 @@ textarea {
 header .content-wrapper {
   display:flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: center;
   justify-content: center;
-  width:90%;
+  width:100%;
   flex-flow:row wrap;
+}
+
+figure {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+  height:25%;
+}
+
+.header-divider {
+  width:100%;
+  border: rgb(87, 87, 87) solid 1px;
 }
 
 header nav {
@@ -132,14 +145,16 @@ header nav {
   align-items: center;
   display:inline;
   flex-flow:row wrap;
+  width:45%;
 }
 
 
 header nav ul {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   padding: 0;
+  
 }
 
 header {
@@ -151,10 +166,6 @@ header {
    margin: 0;
  }
 
-header .header-divider {
-  width:100%;
-  border: rgb(87, 87, 87) solid 0.19px;
-}
 
 a {
   color: white;
@@ -170,16 +181,39 @@ a {
    justify-content:center;
    align-items: center;
    flex-flow:row wrap;
-   background: url('../img/hero.jpg');
-   background-size:100%;
-   height:100%;
+
+}
+
+.hero-area .content-wrapper {
+  height:100%;
+}
+
+.hero-area h1 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width:90%;
+  margin: 50px 20px 350px 20px;
 }
 
 aside {
   display:flex;
-  flex-direction:column;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   flex-flow:row wrap;
+  background-color:#527158;
+  color:white;
+  padding:30px 20px;
+}
+
+
+aside h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+aside p {
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -188,13 +222,33 @@ aside {
   justify-content: center;
   align-items:center;
   flex-flow: row wrap;
+  background: url("../img/features.jpg");
+  color:white;
+  padding-top:50px;
 }
+
+.features .content-wrapper {
+  width: 90%;
+}
+
+.features h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
 
 .features-items {
   display:flex;
   flex-direction:column;
   align-items: center;
-  flex-flow: row wrap;
+  justify-content: center;
+  margin:0;
+  padding-bottom:50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.features-items article {
+  width:45%;
 }
 
 .reviews {
@@ -202,24 +256,69 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
+  padding:50px 0 50px 0;
+  background-color: #2a423a;
+  color:white;
 }
+
+.reviews .content-wrapper {
+  width:90%;
+}
+
+.reviews h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.reviews h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+
+
+.reviews p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 /* Footer */
 
+footer {
+  background-color:black;
+}
 
 .footer-content {
   display:flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
-
+  color:white;
+  width:100%;
 }
 
 .contact {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.contact h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.contact p {
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .social {
-
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 
 .social-icons {
@@ -228,21 +327,8 @@ aside {
 }
 
 .copyright {
-
+  font-family: 'Open Sans', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -337,9 +423,84 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+
+
+header .content-wrapper {
+  flex-direction:row;
+  justify-content: space-between;
+  padding:35px 65px;
 }
+
+header nav {
+  justify-content:space-between;
+  width:16%;
+}
+
+.header-divider {
+  display:none;
+}
+
+figure {
+  width:40%;
+  margin:0;
+  
+}
+
+aside .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width:90%;
+}
+
+.form-description {
+  width:40%;
+}
+
+.form {
+  width: 40%
+}
+
+.form input {
+  margin-bottom:20px;
+}
+
+.features-items {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height:850px;
+}
+
+.features-items article {
+  width:160px;
+  padding:0 90px;
+}
+
+
+.revews article {
+  display:flex;
+  justify-content: center;
+}
+
+aside .form-description {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
