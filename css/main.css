@@ -286,6 +286,7 @@ aside p {
 
 footer {
   background-color:black;
+
 }
 
 .footer-content {
@@ -328,6 +329,7 @@ footer {
 
 .copyright {
   font-family: 'Open Sans', sans-serif;
+  color:white;
 }
 
 
@@ -469,11 +471,9 @@ aside .content-wrapper {
 
 .features-items {
   display:flex;
-  flex-direction: row;
-  flex-wrap:wrap;
-  justify-content: space-between;
+  flex-flow:row wrap;
   align-items: flex-start;
-  height:850px;
+  height:800px;
 }
 
 .features-items article {
@@ -482,16 +482,99 @@ aside .content-wrapper {
 }
 
 
-.revews article {
+.reviews article {
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.reviews img {
+  width:40%;
+}
+
+.reviews h2 {
+  padding-left:50px;
+}
+
+.reviews h4 {
+  margin:0 0 30px 0;
+}
+
+.review-heading {
+  width:40%;
+  margin:0;
 }
 
 aside .form-description {
 
 }
 
-@media only screen and (min-width: 1200px) {
+footer .content-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px; 
+}
+
+.copyright {
+
+}
+
+
+
+@media only screen and (min-device-width: 1200px) {
+
+figure {
+  width:25%;
+}
+
+.hero-area .content-wrapper {
+  width:80%;
+
+}
+
+.hero-area h1 {
+  width:50%;
+}
+
+.form {
+  width:25%;
+}
+
+aside .form-description {
+  width:25%;
+}
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+.features .content-wrapper {
+  width:80%;
+}
+
+.features-items {
+  flex-flow:row wrap;
+  height:800px;
+}
+
+.features-items article {
+  width:160px;
+  padding:0 50px;
+}
+
+
+.footer-content {
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 
 }
