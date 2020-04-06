@@ -105,7 +105,19 @@ textarea {
      width: 100%;
      height:100%;
      font-size:16px;
-   }
+}
+
+   h1,
+   p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+   h2,
+   h3,
+   h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight:normal;
+}
 
   header,
   footer {
@@ -117,7 +129,7 @@ textarea {
   background-color: black;
 }
 
-header .content-wrapper {
+  header .content-wrapper {
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -126,42 +138,40 @@ header .content-wrapper {
   flex-flow:row wrap;
 }
 
-figure {
+  figure {
   display:flex;
   justify-content: center;
   align-items: center;
   width:60%;
-  height:25%;
 }
 
-figure img {
+  figure img {
   width:80%;
   padding-left:20px;
 }
 
-.header-divider {
+  .header-divider {
   width:100%;
   border: rgb(87, 87, 87) solid 1px;
 }
 
-header nav {
+  header nav {
   display:flex;
   justify-content: center;
   align-items: center;
   display:inline;
-  flex-flow:row wrap;
   width:45%;
 }
 
-header nav ul {
+  header nav ul {
   display:flex;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
 }
 
-a {
-  color: white;
+  a {
+  color: #e2e3ed;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-weight:700;
@@ -183,7 +193,7 @@ a {
 }
 
 .hero-area h1 {
-  color: white;
+  color: #e2e3ed;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   width:90%;
@@ -196,17 +206,8 @@ aside {
   align-items: center;
   flex-flow:row wrap;
   background-color:#527158;
-  color:white;
-  padding:0px 20px 20px 0;
-}
-
-aside h3 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-}
-
-aside p {
-  font-family: 'Open Sans', sans-serif;
+  color:#e2e3ed;
+  padding-bottom: 20px;
 }
 
 .features {
@@ -215,17 +216,11 @@ aside p {
   align-items:center;
   flex-flow: row wrap;
   background: url("../img/features.jpg");
-  color:white;
-  padding-top:50px;
+  color:#e2e3ed;
 }
 
 .features .content-wrapper {
   width: 80%;
-}
-
-.features h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
 }
 
 .features-items {
@@ -235,7 +230,6 @@ aside p {
   justify-content: center;
   margin:0;
   padding-bottom:50px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .features-items article {
@@ -247,9 +241,8 @@ aside p {
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
-  padding:50px 0 50px 0;
-  background-color: #2a423a;
-  color:white;
+  padding:30px 0 30px 0;
+  color:#e2e3ed;
 }
 
 .reviews .content-wrapper {
@@ -264,33 +257,14 @@ aside p {
   width:90%;
 }
 
-.reviews h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-}
-
-.reviews h4 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-}
-
-.reviews p {
-  font-family: 'Open Sans', sans-serif;
-}
-
 /*--- Footer---*/
-
-footer {
-  background-color:black;
-
-}
 
 .footer-content {
   display:flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  color:white;
+  color:#e2e3ed;
   width:100%;
 }
 
@@ -301,14 +275,8 @@ footer {
   align-items: center;
 }
 
-.contact h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-}
-
 .contact p {
   margin:0;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .social {
@@ -324,23 +292,38 @@ footer {
 }
 
 .copyright {
-  font-family: 'Open Sans', sans-serif;
-  color:white;
+  color:#e2e3ed;
+  padding:30px 0;
 }
 
 
 
 /*-----------------MOBILE ----ABOUT---------------*/
 
+.mission {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  background-color:#527158;
+}
+
 .mission .content-wrapper {
   display:flex;
   justify-content: center;
   align-items: center;
   width:80%;
+  color:#e2e3ed;
 }
 
-.mission-content {
-  color:white;
+.mission-content h1 {
+  font-size:30px;
+  line-height: 1.2;
+}
+
+.mission-paragraph {
+  font-size:14px;
+  line-height: 1.4;
 }
 
 main {
@@ -349,7 +332,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #2a423a;
-  color:white;
+  color:#e2e3ed;
 }
 
 main figure {
@@ -364,26 +347,7 @@ main .content-wrapper {
   width:80%;
 }
 
-main .content-wrapper h2, h3 {
-  font-family: 'Poppins', sans-serif;
-}
 
-
-.mission {
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  background-color:#527158;
-}
-
-.mission h1 {
-  font-family: 'Poppins', sans-serif;
-}
-
-.mission-paragraph {
-  font-family: 'Open Sans', sans-serif;
-}
 
 /* ==========================================================================
    Helper classes
@@ -501,8 +465,12 @@ figure {
   margin-bottom:35px;
 }
 
-.hero-area .content-wrapper {
+.hero-area {
   width:100%;
+}
+
+.hero-area .content-wrapper {
+  width:83%;
 }
 
 aside .content-wrapper {
@@ -510,7 +478,11 @@ aside .content-wrapper {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  width:80%;
+  width:83%;
+}
+
+.form-description {
+  width:40%;
 }
 
 .form {
@@ -522,12 +494,7 @@ aside .content-wrapper {
 }
 
 .features .content-wrapper {
-  width:80%;
-}
-
-
-.form-description {
-  width:40%;
+  width:83%;
 }
 
 .features-items {
@@ -542,12 +509,14 @@ aside .content-wrapper {
   padding:0 50px;
 }
 
-
 .reviews .content-wrapper {
   justify-content: flex-start;
-  width:80%;
+  width:83%;
 }
 
+.reviews h2 {
+  padding-right:190px;
+}
 .reviews article {
   display:flex;
   justify-content: space-between;
@@ -567,13 +536,6 @@ aside .content-wrapper {
   margin:0;
 }
 
-.reviews h2 {
-  padding-right:170px;
-}
-
-
-
-
 footer .content-wrapper {
   display:flex;
   flex-direction: column;
@@ -589,7 +551,7 @@ footer .content-wrapper {
 }
 
 .copyright {
-
+  font-size:14px;
 }
 
 
@@ -601,24 +563,24 @@ footer .content-wrapper {
 
 .mission .content-wrapper {
   padding-top:0;
+  width:83%;
 }
 
 .mission .mission-content {
   display:flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  padding:100px 0;
+  padding:30px 0 50px 0;
 }
 
 .mission-content h1 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-size:36px;
+  font-weight:normal;
 }
 
 .mission-paragraph {
   width:40%;
   margin:0;
-  font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -630,9 +592,10 @@ figure iframe {
 }
 
 main .content-wrapper {
-  color:white;
+  color:#e2e3ed;
+  width:83%;
+  padding:50px 0;
 }
-
 
 .general-contact-info {
   display:flex;
@@ -650,47 +613,103 @@ main .content-wrapper {
 
 
 
-@media only screen and (min-device-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+
+header .content-wrapper {
+  width:80%;
+}
 
 figure {
   width:25%;
+  margin-left:0;
+}
+
+figure img {
+  padding-left:0;
+}
+
+header nav {
+  margin-right:0;
 }
 
 .hero-area .content-wrapper {
   width:80%;
-
 }
 
 .hero-area h1 {
-  width:50%;
+  font-size: 60px;
+}
+
+aside {
+  width:100%;
+}
+
+aside .content-wrapper {
+  width:80%;
+  justify-content: space-around;
+}
+
+.form-description h3 {
+  font-size:30px;
+}
+
+.form-description p {
+  font-size:18px;
+}
+
+.form h3 {
+  font-size:30px;
+}
+
+.form-description {
+  width:35%;
 }
 
 .form {
   width:25%;
 }
 
-aside .form-description {
-  width:25%;
-}
-
-aside .content-wrapper {
-  justify-content: space-around;
-}
-
 .features .content-wrapper {
   width:80%;
 }
 
+.features h2 {
+  font-size:36px;
+}
+
 .features-items {
   flex-flow:row wrap;
-  height:800px;
+  height:600px;
+  margin-top:60px;
 }
 
 .features-items article {
   width:160px;
-  padding:0 50px;
+  padding:0 80px;
 }
 
+.features-items article p {
+  font-size:18px;
+}
+
+
+.reviews .content-wrapper {
+  width:80%;
+}
+
+.reviews h2 {
+  font-size:36px;
+  padding-right:320px;
+}
+
+.review-heading h4 {
+  font-size:30px;
+}
+
+
+footer .content-wrapper {
+  width:80%;
+}
 
 .footer-content {
   flex-direction: row;
@@ -699,8 +718,6 @@ aside .content-wrapper {
 
 
 }
-
-
 
 
 
