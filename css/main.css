@@ -202,7 +202,8 @@ textarea {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   height:500px;
+   height:100%;
+   min-height:400px;
 }
 
 .hero-area h1 {
@@ -325,6 +326,9 @@ aside .form h3 {
   font-size:14px;
 }
 
+.reviews img {
+  width:100%;
+}
 
 /*--- Footer---*/
 
@@ -420,12 +424,21 @@ main {
   color:#e2e3ed;
 }
 
-main figure {
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.map-container {
   margin:0;
+  position: relative;
+  padding-bottom: 75%;
+  height:0;
+  overflow: hidden;
   width:100%;
+}
+
+.map-container iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 
 main .content-wrapper {
@@ -585,7 +598,7 @@ header nav {
   display:none;
 }
 
-figure {
+header figure {
   width:40%;
   margin:0;
   margin-left:65px;
@@ -596,6 +609,10 @@ figure {
 
 .hero-area {
   width:100%;
+}
+
+.hero-area h1 {
+  padding-top:50px; 
 }
 
 aside {
@@ -657,8 +674,8 @@ aside .form h3 {
   align-items: flex-start;
 }
 
-.reviews img {
-  width:40%;
+.reviews figure {
+  width:45%;
 }
 
 .review-heading {
@@ -718,12 +735,27 @@ footer .content-wrapper {
 }
 
 main {
+  width:100%;
   background-color:#2a423a;
 }
 
-figure iframe {
+
+.map-container {
+  position: relative;
+  padding-bottom: 75%;
+  height:0;
+  overflow: hidden;
   width:100%;
 }
+
+.map-container iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
 
 .call-to-action {
   padding: 70px 0 70px 0;
