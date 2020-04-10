@@ -305,6 +305,16 @@ aside .form h3 {
   color:#e2e3ed;
 }
 
+.reviews article {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article figure {
+  width:100%;
+}
+
 .reviews .content-wrapper {
   display:flex;
   flex-direction: column;
@@ -427,7 +437,7 @@ main {
 .map-container {
   margin:0;
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 125%;
   height:0;
   overflow: hidden;
   width:100%;
@@ -445,12 +455,13 @@ main .content-wrapper {
   padding:40px 0;
 }
 
-main .content-wrapper h2 {
+
+main .call-to-action h2 {
   font-size:30px;
   margin:0;
 }
 
-main .content-wrapper h4 {
+main .general-info h4 {
   font-size:18px;
 }
 
@@ -466,9 +477,22 @@ main .faq-area {
   align-items: center;
   flex-flow:row wrap;
   background-color:#527158;
+  padding:0;
 }
 
-.faq-area h1 {
+main .faq-area .content-wrapper {
+  padding:0;
+}
+
+main .faq-area {
+  padding-bottom: 30px;
+}
+
+.faq-area .faq-h1 {
+  width: 80%;
+}
+
+.faq-area .faq-h1 h1 {
   font-size:30px;
   line-height: 1;
   font-weight: normal;
@@ -670,12 +694,14 @@ aside .form h3 {
 
 .reviews article {
   display:flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .reviews figure {
   width:45%;
+  margin:0;
 }
 
 .review-heading {
@@ -724,7 +750,7 @@ footer .content-wrapper {
   padding:0;
 }
 
-.mission-content h1 {
+.mission .mission-content h1 {
   font-size:36px;
   font-weight:normal;
 }
@@ -742,7 +768,7 @@ main {
 
 .map-container {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 45%;
   height:0;
   overflow: hidden;
   width:100%;
@@ -772,7 +798,7 @@ main {
   width:50%;
 }
 
-.facilitator-info {
+main .facilitator-info {
   width:40%;
 
 }
@@ -789,46 +815,55 @@ main .content-wrapper {
 
 /*---FAQ AREA---*/
 
-.faq-area {
+main .faq-area {
   display:flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow:row wrap;
+  padding: 20px 0 30px 0;
 }
 
-.faq-area .content-wrapper {
+main .faq-area .content-wrapper {
   display:flex;
   justify-content:space-between;
-  align-items: center;
   flex-flow:row wrap;
-  margin:100px 0 100px 0;
+  
 }
 
-.faq-area h1 {
+main .faq-area .faq-h1 h1 {
   font-size: 36px;
   font-weight:700;
 }
 
-.question h4, p {
+main .question h4, p {
  font-size: 14px;
 }
 
-.question {
+main .question {
   width: 45%;
 }
 
 /*---FOOTER ---*/
 
+footer {
+  padding-top:80px;
+}
+
+footer .footer-content {
+  margin:0;
+}
 footer .social {
   padding-top:0;
 }
 
 footer .contact h2 {
   font-size:24px;
+  margin:0;
 }
 
 footer .social h2 {
   font-size: 24px;
+  margin:0;
 }
 
 }
@@ -839,12 +874,12 @@ footer .social h2 {
     width:80%;
   }
   
-  figure {
+  header figure {
     width:25%;
     margin-left:0;
   }
   
-  figure img {
+  header figure img {
     padding-left:0;
   }
   
@@ -878,11 +913,11 @@ footer .social h2 {
 }
 
 .form-description {
-  width:35%;
+  width:40%;
 }
 
 .form {
-  width:25%;
+  width:40%;
 }
 
 .features h2 {
@@ -917,6 +952,11 @@ article img {
   width:60%;
 }
 
+.reviews .content-wrapper h2 {
+  font-size:36px;
+  margin-bottom: 0;
+}
+
 .reviews h2 {
   font-size:36px;
   padding-bottom:90px;
@@ -943,6 +983,73 @@ article img {
 
 
 /*----------------DESKTOP ABOUT----------------*/
+
+.mission .mission-paragraph {
+  width: 45%;
+}
+
+.mission .mission-content h1 {
+  font-size:48px;
+  padding-bottom:15px;
+}
+
+
+.mission .mission-paragraph p {
+  font-size:18px;
+}
+
+
+main .call-to-action h2 {
+  font-size: 48px;;
+}
+
+main .general-info h4 {
+  font-size:30px;
+}
+
+main .facilitator-info h4 {
+  font-size:30px;
+
+}
+
+main .general-contact-info p {
+  font-size:18px;
+}
+
+footer .footer-content h2 {
+  font-size: 30px;
+}
+
+footer .footer-content p {
+  font-size: 18px;;
+}
+
+.copyright {
+  font-size: 18px;;
+}
+
+/*----------------DESKTOP FAQ----------------*/
+
+
+main .faq-area h1 {
+  padding-right:430px;
+  font-size: 48px;;
+}
+
+main .question h4 {
+  font-size:18px;
+}
+
+main .question p {
+  font-size: 18px;;
+}
+
+.copyright {
+  padding-top:70px;
+}
+
+
+
 
 }
 
