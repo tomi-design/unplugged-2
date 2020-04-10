@@ -120,7 +120,9 @@ textarea {
     font-weight:normal;
 }
 
- 
+ img {
+   width:100%;
+ }
 
    /*-------------- BASE HEADER --------FOOTER STYLES--------------*/
 
@@ -191,13 +193,13 @@ textarea {
 .hero-area {
    display:flex;
    justify-content:center;
-   align-items: center;
    flex-flow:row wrap;
    background-color: #2a423a;/*for now until i place image*/
-}
-
-.hero-area .content-wrapper {
-    height:350px; /*for now until i place image*/
+   background: url('../img/hero.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height:500px;
 }
 
 .hero-area h1 {
@@ -205,9 +207,9 @@ textarea {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size:36px;
-  width:90%;
-  margin:50px 0;
+  width:100%;
   line-height: 1.3;
+  margin:0;
 }
 
 /*---- ASIDE----*/
