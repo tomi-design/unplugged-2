@@ -280,6 +280,7 @@ aside .form h3 {
 
 .features-items {
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
@@ -293,6 +294,12 @@ aside .form h3 {
 
 .features-items article p {
   font-size:14px;
+}
+
+.features i {        /*for the icons - font awesome*/
+  font-size:3.75em;
+  margin-bottom: 40px;
+  margin-left:40px;
 }
 
 /*---REVIEWS----*/
