@@ -159,12 +159,12 @@ textarea {
 
   header figure img {
     width:80%;
-    padding-left:20px;
+    padding-left:1.25em;
 }
 
   .header-divider {
     width:100%;
-    border: rgb(87, 87, 87) solid 1px;
+    border: rgb(87, 87, 87) solid 0.063em;
 }
 
   header nav {
@@ -203,14 +203,14 @@ textarea {
    background-position: center;
    background-size: cover;
    height:100%;
-   min-height:460px;
+   min-height:28.75em;
 }
 
 .hero-area h1 {
   color: #e2e3ed;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size:36px;
+  font-size:2.25em;
   width:100%;
   line-height: 1.3;
   margin:0;
@@ -225,7 +225,7 @@ aside {
   flex-flow:row wrap;
   background-color:#527158;
   color:#e2e3ed;
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
 }
 
 input[type=text] {
@@ -238,8 +238,8 @@ input[type=text] {
 
 input[type=button] {
   width:100%;
-  padding:20px 0;
-  margin-top:20px;
+  padding:1.25em 0;
+  margin-top:1.25em;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -251,15 +251,15 @@ input[type=button] {
 }
 
 aside .form-description h3 {
-  font-size:18px;
+  font-size:1.125em;
 }
 
 aside .form-description p {
-  font-size:14px;
+  font-size:0.875em;
 }
 
 aside .form h3 {
-  font-size:18px;
+  font-size:1.125em;
 }
 
 /*---FEATURE----*/
@@ -277,7 +277,7 @@ aside .form h3 {
 }
 
 .features .content-wrapper h2 {
-  font-size:30px;
+  font-size:1.875em;
   line-height: 1.3;
 }
 
@@ -288,7 +288,7 @@ aside .form h3 {
   align-items: center;
   flex-flow:row wrap;
   margin:0;
-  padding-bottom:40px;
+  padding-bottom:2.5em;
 }
 
 .fontawesome-icon {
@@ -302,12 +302,12 @@ aside .form h3 {
 }
 
 .features-items article p {
-  font-size:14px;
+  font-size:0.875em;
 }
 
 .features i {        /*for the icons - font awesome*/
   font-size:3.75em;
-  margin: 40px 0 20px 0 ;
+  margin: 0.75em 0 0.5em 0 ;
 }
 
 .features-item-description {
@@ -342,18 +342,18 @@ article figure {
 }
 
 .reviews .content-wrapper h2 {
-  font-size: 30px;
+  font-size: 1.875em;
   margin:0;
-  margin-bottom:10px;
+  margin-bottom:0.625em;
 }
 
 .reviews .review-heading h4 {
-  font-size:18px;
+  font-size:1.125em;
   margin:0;
 }
 
 .reviews .review-heading p {
-  font-size:14px;
+  font-size:0.875em;
 }
 
 .reviews img {
@@ -379,13 +379,13 @@ footer .contact {
 }
 
 footer .contact h2 {
-  font-size:18px;
+  font-size:1.125em;
   font-style: normal;
-  margin-bottom:20px;
+  margin-bottom:1.25em;
 }
 
 footer .social h2 {
-  font-size:18px;
+  font-size:1.125em;
   margin:0;
 }
 
@@ -398,7 +398,7 @@ footer .social {
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  padding-top:60px;
+  padding-top:3.75em;
 }
 
 footer .social-icons {
@@ -410,7 +410,7 @@ footer .social-icons {
 
 footer .social-icons  i {
   font-size:2em;
-  margin:0 20px;
+  margin:0 0.75em;
   color:#527158;
 }
 
@@ -419,8 +419,8 @@ footer .social-icons  i {
   justify-content: center;
   align-items: center;
   color:#e2e3ed;
-  padding:30px 0;
-  font-size:14px;
+  padding:1.875em 0;
+  font-size:0.875em;
 }
 
 
@@ -441,17 +441,17 @@ footer .social-icons  i {
   align-items: center;
   color:#e2e3ed;
   width:80%;
-  padding:50px 0;
+  padding:3.125em 0;
 }
 
 .mission .mission-content h1 {
-  font-size:30px;
+  font-size:1.875em;
   line-height: 1.2;
   margin:0;
 }
 
 .mission .mission-paragraph p {
-  font-size:14px;
+  font-size:0.875em;
   line-height: 1.4;
 }
 
@@ -482,21 +482,21 @@ main {
 }
 
 main .content-wrapper {
-  padding:20px 0;
+  padding:1.25em 0;
 }
 
 
 main .call-to-action h2 {
-  font-size:30px;
+  font-size:1.875em;
   margin:0;
 }
 
 main .general-info h4 {
-  font-size:18px;
+  font-size:1.125em;
 }
 
 .general-contact-info p {
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 /*---------------- MOBILE FAQ-------------*/
@@ -515,7 +515,7 @@ main .faq-area .content-wrapper {
 }
 
 main .faq-area {
-  padding-bottom: 30px;
+  padding-bottom: 1.875em;
 }
 
 .faq-area .faq-h1 {
@@ -523,18 +523,18 @@ main .faq-area {
 }
 
 .faq-area .faq-h1 h1 {
-  font-size:30px;
+  font-size:1.875em;
   line-height: 1;
   font-weight: normal;
 }
 
 .faq-area h4 {
-  font-size:18px;
+  font-size:1.125em;
   font-weight:normal;
 }
 
 .faq-area p {
-  font-size: 14px;;
+  font-size: 0.875em;;
 }
 
 }
@@ -638,18 +638,18 @@ main .faq-area {
 header .content-wrapper {
   flex-direction:row;
   justify-content: space-between;
-  padding-top:35px;
+  padding-top:2.188em;
 }
 
 header nav {
   justify-content:space-between;
   width:16%;
-  margin-right:65px;
-  margin-bottom:35px;
+  margin-right:4.063em;
+  margin-bottom:2.188em;
 }
 
 a {
-  font-size:16px;
+  font-size:1em;
 }
 
 .header-divider {
@@ -659,8 +659,8 @@ a {
 header figure {
   width:40%;
   margin:0;
-  margin-left:65px;
-  margin-bottom:35px;
+  margin-left:4.063em;
+  margin-bottom:2.188em;
 }
 
 /*---HERO AREA----*/
@@ -670,13 +670,13 @@ header figure {
 }
 
 .hero-area h1 {
-  padding-top:50px; 
-  font-size:48px;
+  padding-top:1em; 
+  font-size:3em;
 }
 
 aside {
   width:100%;
-  padding:30px 0 30px 0;
+  padding:1.875em 0 1.875em 0;
 }
 
 aside .content-wrapper {
@@ -695,15 +695,15 @@ aside .content-wrapper {
 }
 
 aside .form-description h3 {
-  font-size: 24px;;
+  font-size: 1.5em;
 }
 
 aside .form h3 {
-  font-size:24px;
+  font-size:1.5em;
 }
 
 .features {
-  padding:50px 0 50px 0;
+  padding:3.125em 0 3.125em 0;
 }
 
 .features-items {
@@ -714,19 +714,19 @@ aside .form h3 {
 }
 
 .features-items article {
-  width:160px;
-  padding:0 50px;
+  width:10em;
+  padding:0 3.125em;
 }
 
 .features .content-wrapper h2 {
-  font-size:34px;
+  font-size:2.125em;
   margin:0;
 }
 
 /*---REVIEWS---*/
 
 .reviews {
-  padding:90px 0 90px 0;
+  padding:5.625em 0 5.625em 0;
 }
 
 .reviews article {
@@ -737,11 +737,11 @@ aside .form h3 {
 }
 
 .reviews .content-wrapper h2 {
-  font-size:36px;
+  font-size:2.25em;
 }
 
 .reviews .review-heading h4 {
-  font-size:24px;
+  font-size:1.5em;
 }
 
 .reviews figure {
@@ -755,7 +755,7 @@ aside .form h3 {
 }
 
 .reviews h4 {
-  margin:0 0 30px 0;
+  margin:0 0 1.875em 0;
 }
 
 
@@ -773,21 +773,21 @@ footer .content-wrapper {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  margin: 50px; 
+  margin: 3.125em; 
 }
 
 .copyright {
-  font-size:14px;
+  font-size:0.875em;
 }
 
 footer .contact h2 {
-  font-size:24px;
-  padding-bottom:20px;
+  font-size:1.5em;
+  padding-bottom:1.25em;
   margin:0;
 }
 
 footer .social h2 {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 /*----------------TABLET ABOUT PAGE----------------*/
 
@@ -804,8 +804,8 @@ footer .social h2 {
 }
 
 .mission .mission-content h1 {
-  font-size:34px;
-  margin-bottom:20px;
+  font-size:2.125em;
+  margin-bottom:1.25em;
 }
 
 .mission-paragraph {
@@ -837,12 +837,12 @@ main {
 
 
 .call-to-action {
-  padding: 70px 0 70px 0;
+  padding: 4.375em 0 4.375em 0;
   color:#e2e3ed;
 }
 
 main .call-to-action h2 {
-  font-size: 36px;
+  font-size: 2.25em;
 }
 
 .general-contact-info {
@@ -856,7 +856,7 @@ main .call-to-action h2 {
 }
 
 main .general-info h4 {
-  font-size:24px;
+  font-size:1.5em;
 }
 
 main .facilitator-info {
@@ -865,7 +865,7 @@ main .facilitator-info {
 }
 
 main .facilitator-info h4 {
-  font-size:24px;
+  font-size:1.5em;
 }
 
 /*----------------TABLET FAQ PAGE----------------*/
@@ -885,7 +885,7 @@ main .faq-area {
   justify-content: center;
   align-items: flex-start;
   flex-flow:row wrap;
-  padding: 20px 0 30px 0;
+  padding: 1.25em 0 1.875em 0;
 }
 
 main .faq-area .content-wrapper {
@@ -896,12 +896,12 @@ main .faq-area .content-wrapper {
 }
 
 main .faq-area .faq-h1 h1 {
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight:700;
 }
 
 main .question h4, p {
- font-size: 14px;
+ font-size: 0.875em;
 }
 
 main .question {
@@ -911,7 +911,7 @@ main .question {
 /*---FOOTER ---*/
 
 footer {
-  padding-top:80px;
+  padding-top:5em;
 }
 
 footer .footer-content {
@@ -928,7 +928,7 @@ footer .social {
 @media only screen and (min-width: 1200px) {
 
  .hero-area {
-   min-height:600px;
+   min-height:37.5em;
  }
 
   header .content-wrapper {
@@ -949,11 +949,11 @@ footer .social {
   }
 
   a {
-    font-size:18px;
+    font-size:1.125em;
   }
   
   .hero-area h1 {
-    font-size:60px;
+    font-size:3.75em;
   }
   
   aside {
@@ -966,15 +966,15 @@ footer .social {
   }
 
 aside .form-description h3 {
-  font-size:30px;
+  font-size:1.875em;
 }
 
 aside .form-description p {
-  font-size:18px;
+  font-size:1.125em;
 }
 
 .form h3 {
-  font-size:30px;
+  font-size:1.875em;
 }
 
 .form-description {
@@ -986,11 +986,11 @@ aside .form-description p {
 }
 
 .features h2 {
-  font-size:36px;
+  font-size:2.25em;
 }
 
 .features {
-  padding: 100px 0 130px 0;
+  padding: 6.25em 0 8.125em 0;
   width:100%;
 }
 
@@ -1003,10 +1003,10 @@ aside .form-description p {
 
 .features-items {
   flex-flow:row wrap;
-  min-height:600px;
-  margin-top:60px;
+  min-height:37.5em;
+  margin-top:3.75em;
   padding-bottom:0;
-  max-width: 1200px;;
+  max-width: 75em;
 }
 
 .features-items {
@@ -1015,15 +1015,15 @@ aside .form-description p {
 
 .features-items article {
   width:15%;
-  padding:0 80px;
+  padding:0 5em;
 }
 
 .features-items article p {
-  font-size:18px;
+  font-size:1.125em;
 }
 
 .reviews {
-  padding:90px 0 90px 0;
+  padding:5.625em 0 5.625em 0;
 }
 
 .reviews figure {
@@ -1031,14 +1031,13 @@ aside .form-description p {
 }
 
 .reviews .content-wrapper h2 {
-  font-size:36px;
+  font-size:2.25em;
   margin-bottom: 0;
 }
 
 .reviews h2 {
-  font-size:36px;
-  padding-bottom:90px;
-
+  font-size:2.25em;
+  padding-bottom:2em;
 }
 
 .review-heading {
@@ -1046,11 +1045,11 @@ aside .form-description p {
 }
 
 .reviews .review-heading h4 {
-  font-size:30px;
+  font-size:1.875em;
 }
 
 .reviews .review-heading p {
-  font-size:18px;
+  font-size:1.125em;
   line-height: 1.5;
 }
 
@@ -1067,50 +1066,47 @@ aside .form-description p {
 }
 
 .mission .mission-content h1 {
-  font-size:48px;
-  padding-bottom:15px;
+  font-size:3em;
+  padding-bottom:1em;
 }
 
 .mission .mission-paragraph p {
-  font-size:18px;
+  font-size:1.125em;
 }
 
-
 main .call-to-action h2 {
-  font-size: 48px;;
+  font-size: 3em;
 }
 
 main .general-info h4 {
-  font-size:30px;
+  font-size:1.875em;
 }
 
 main .facilitator-info h4 {
-  font-size:30px;
-
+  font-size:1.875em;
 }
 
 main .general-contact-info p {
-  font-size:18px;
+  font-size:1.125em;
 }
 
 footer .footer-content h2 {
-  font-size: 30px;
+  font-size: 1.875em;
 }
 
 footer .footer-content p {
-  font-size: 18px;;
+  font-size: 1.125em;
 }
 
 .copyright {
-  font-size: 18px;;
+  font-size: 1.125em;
 }
 
 /*----------------DESKTOP FAQ----------------*/
 
 
 main .faq-area h1 {
-  padding-right:430px;
-  font-size: 48px;;
+  font-size: 3em;
 }
 
 main .question h4 {
@@ -1118,13 +1114,12 @@ main .question h4 {
 }
 
 main .question p {
-  font-size: 18px;;
+  font-size: 1.125em;
 }
 
 .copyright {
-  padding-top:70px;
+  padding-top:4.375em;
 }
-
 
 
 
