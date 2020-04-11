@@ -344,11 +344,12 @@ article figure {
 .reviews .content-wrapper h2 {
   font-size: 30px;
   margin:0;
-  margin-bottom:30px;
+  margin-bottom:10px;
 }
 
 .reviews .review-heading h4 {
   font-size:18px;
+  margin:0;
 }
 
 .reviews .review-heading p {
@@ -380,6 +381,12 @@ footer .contact {
 footer .contact h2 {
   font-size:18px;
   font-style: normal;
+  margin-bottom:20px;
+}
+
+footer .social h2 {
+  font-size:18px;
+  margin:0;
 }
 
 footer .contact p {
@@ -391,13 +398,8 @@ footer .social {
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  padding-top:20px;
+  padding-top:60px;
 }
-
-footer .social h2 {
-  font-size:18px;
-}
-
 
 footer .social-icons {
   display:flex;
@@ -480,7 +482,7 @@ main {
 }
 
 main .content-wrapper {
-  padding:40px 0;
+  padding:20px 0;
 }
 
 
@@ -646,6 +648,10 @@ header nav {
   margin-bottom:35px;
 }
 
+a {
+  font-size:16px;
+}
+
 .header-divider {
   display:none;
 }
@@ -665,6 +671,7 @@ header figure {
 
 .hero-area h1 {
   padding-top:50px; 
+  font-size:48px;
 }
 
 aside {
@@ -729,6 +736,14 @@ aside .form h3 {
   align-items: flex-start;
 }
 
+.reviews .content-wrapper h2 {
+  font-size:36px;
+}
+
+.reviews .review-heading h4 {
+  font-size:24px;
+}
+
 .reviews figure {
   width:45%;
   margin:0;
@@ -765,7 +780,15 @@ footer .content-wrapper {
   font-size:14px;
 }
 
+footer .contact h2 {
+  font-size:24px;
+  padding-bottom:20px;
+  margin:0;
+}
 
+footer .social h2 {
+  font-size: 24px;
+}
 /*----------------TABLET ABOUT PAGE----------------*/
 
 .mission {
@@ -781,12 +804,12 @@ footer .content-wrapper {
 }
 
 .mission .mission-content h1 {
-  font-size:36px;
-  font-weight:normal;
+  font-size:34px;
+  margin-bottom:20px;
 }
 
 .mission-paragraph {
-  width:40%;
+  width:45%;
   margin:0;
 }
 
@@ -818,6 +841,10 @@ main {
   color:#e2e3ed;
 }
 
+main .call-to-action h2 {
+  font-size: 36px;
+}
+
 .general-contact-info {
   display:flex;
   justify-content: space-between;
@@ -828,9 +855,17 @@ main {
   width:50%;
 }
 
-main .facilitator-info {
-  width:40%;
+main .general-info h4 {
+  font-size:24px;
+}
 
+main .facilitator-info {
+  width:50%;
+
+}
+
+main .facilitator-info h4 {
+  font-size:24px;
 }
 
 /*----------------TABLET FAQ PAGE----------------*/
@@ -886,15 +921,7 @@ footer .social {
   padding-top:0;
 }
 
-footer .contact h2 {
-  font-size:24px;
-  margin:0;
-}
 
-footer .social h2 {
-  font-size: 24px;
-  margin:0;
-}
 
 }
 
@@ -919,6 +946,10 @@ footer .social h2 {
   
   header nav {
     margin-right:0;
+  }
+
+  a {
+    font-size:18px;
   }
   
   .hero-area h1 {
@@ -1039,7 +1070,6 @@ aside .form-description p {
   font-size:48px;
   padding-bottom:15px;
 }
-
 
 .mission .mission-paragraph p {
   font-size:18px;
