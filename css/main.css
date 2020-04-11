@@ -288,6 +288,12 @@ aside .form h3 {
   padding-bottom:40px;
 }
 
+.fontawesome-icon {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .features-items article {
   width:60%;
 }
@@ -298,8 +304,11 @@ aside .form h3 {
 
 .features i {        /*for the icons - font awesome*/
   font-size:3.75em;
-  margin-bottom: 40px;
-  margin-left:40px;
+  margin: 40px 0 20px 0 ;
+}
+
+.features-item-description {
+  text-align: center;
 }
 
 /*---REVIEWS----*/
@@ -907,11 +916,11 @@ footer .social h2 {
     justify-content: space-between;
   }
 
-.form-description h3 {
+aside .form-description h3 {
   font-size:30px;
 }
 
-.form-description p {
+aside .form-description p {
   font-size:18px;
 }
 
