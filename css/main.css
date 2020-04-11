@@ -198,12 +198,12 @@ textarea {
    justify-content:center;
    flex-flow:row wrap;
    background-color: #2a423a;/*for now until i place image*/
-   background: url('../img/hero4.jpg');
+   background: url('../img/hero2.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
    height:100%;
-   min-height:400px;
+   min-height:460px;
 }
 
 .hero-area h1 {
@@ -270,6 +270,9 @@ aside .form h3 {
   align-items:center;
   flex-flow: row wrap;
   background: url("../img/features.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color:#e2e3ed;
 }
 
@@ -395,9 +398,18 @@ footer .social h2 {
   font-size:18px;
 }
 
+
 footer .social-icons {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
 
-
+footer .social-icons  i {
+  font-size:2em;
+  margin:0 20px;
+  color:#527158;
 }
 
 .copyright {
@@ -684,13 +696,14 @@ aside .form h3 {
 }
 
 .features {
-  padding:100px 0 50px 0;
+  padding:50px 0 50px 0;
 }
 
 .features-items {
   display:flex;
   flex-flow:row wrap;
   align-items: flex-start;
+  padding-bottom:0;
 }
 
 .features-items article {
@@ -698,8 +711,9 @@ aside .form h3 {
   padding:0 50px;
 }
 
-.features h2 {
-  padding-bottom:40px;
+.features .content-wrapper h2 {
+  font-size:34px;
+  margin:0;
 }
 
 /*---REVIEWS---*/
@@ -886,6 +900,10 @@ footer .social h2 {
 
 @media only screen and (min-width: 1200px) {
 
+ .hero-area {
+   min-height:600px;
+ }
+
   header .content-wrapper {
     width:80%;
   }
@@ -941,18 +959,31 @@ aside .form-description p {
 }
 
 .features {
-  padding: 100px 0 90px 0;
+  padding: 100px 0 130px 0;
+  width:100%;
+}
+
+.features .content-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:row wrap;
 }
 
 .features-items {
   flex-flow:row wrap;
-  height:600px;
+  min-height:600px;
   margin-top:60px;
   padding-bottom:0;
+  max-width: 1200px;;
+}
+
+.features-items {
+  margin:0;
 }
 
 .features-items article {
-  width:160px;
+  width:15%;
   padding:0 80px;
 }
 
@@ -964,8 +995,8 @@ aside .form-description p {
   padding:90px 0 90px 0;
 }
 
-article img {
-  width:60%;
+.reviews figure {
+  width:45%;
 }
 
 .reviews .content-wrapper h2 {
@@ -980,14 +1011,14 @@ article img {
 }
 
 .review-heading {
-  width:40%;
+  width:45%;
 }
 
-.review-heading h4 {
+.reviews .review-heading h4 {
   font-size:30px;
 }
 
-.review-heading p {
+.reviews .review-heading p {
   font-size:18px;
   line-height: 1.5;
 }
