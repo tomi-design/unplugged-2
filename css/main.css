@@ -442,6 +442,8 @@ main .content-wrapper {
 
 /*-----------------MOBILE ----ABOUT PAGE---------------*/
 
+/*---MISSION AREA----*/
+
   .mission {
     display:flex;
     flex-direction:column;
@@ -470,6 +472,9 @@ main .content-wrapper {
     line-height: 1.4;
 }
 
+/*--- MAP ----*/
+
+
   .map-container {
     margin:0;
     position: relative;
@@ -487,6 +492,8 @@ main .content-wrapper {
     height:100%;
 }
 
+/*---CALL TO ACTION AREA----*/
+
   main .call-to-action h2 {
     font-size:1.875em;
     margin:0;
@@ -502,6 +509,8 @@ main .content-wrapper {
 
 
 /*---------------- MOBILE FAQ-------------*/
+
+/*---FAQ AREA----*/
 
   main .faq-area {
     display:flex;
@@ -673,6 +682,8 @@ a {
   font-size:3em;
 }
 
+/*---ASIDE AREA----*/
+
 aside {
   width:100%;
   padding:1.875em 0 1.875em 0;
@@ -700,6 +711,8 @@ aside .form-description h3 {
 aside .form h3 {
   font-size:1.5em;
 }
+
+/*---FEATURES----*/
 
 .features {
   padding:3.125em 0 3.125em 0;
@@ -788,6 +801,8 @@ footer .social h2 {
 
 /*----------------TABLET ABOUT PAGE----------------*/
 
+/*---MISSION AREA----*/
+
 .mission {
   width:100%;
 }
@@ -810,6 +825,8 @@ footer .social h2 {
   margin:0;
 }
 
+/*---MAP ----*/
+
 .map-container {
   position: relative;
   padding-bottom: 45%;
@@ -825,6 +842,8 @@ footer .social h2 {
   width:100%;
   height:100%;
 }
+
+/*---CALL TO ACTION AREA----*/ 
 
 main .call-to-action {
   padding: 4em 0 4em 0;
@@ -911,6 +930,8 @@ footer .social {
 
 @media only screen and (min-width: 1200px) {
 
+/*---HEADER----*/
+
 header .content-wrapper {
   width:80%;
 }
@@ -933,6 +954,8 @@ a {
   font-size:1.125em;
 }
 
+/*---HERO AREA----*/
+
 .hero-area {
   min-height:37.5em;
 }
@@ -940,7 +963,9 @@ a {
 .hero-area h1 {
   font-size:3.75em;
 }
-  
+
+/*---ASIDE AREA----*/
+
 aside {
   width:100%;
 }
@@ -969,6 +994,8 @@ aside .form {
 aside .form h3 {
   font-size:1.875em;
 }
+
+/*---FEATURES----*/
 
 .features {
   padding: 6.25em 0 8.125em 0;
@@ -1004,6 +1031,8 @@ aside .form h3 {
   font-size:1.125em;
 }
 
+/*---REVIEWS----*/
+
 .reviews {
   padding:5.625em 0 5.625em 0;
 }
@@ -1031,6 +1060,8 @@ aside .form h3 {
   line-height: 1.5;
 }
 
+/*---FOOTER----*/
+
 .footer-content {
   flex-direction: row;
   justify-content: space-around;
@@ -1039,6 +1070,7 @@ aside .form h3 {
 
 /*----------------DESKTOP ABOUT----------------*/
 
+/*---MISSION AREA----*/
 
 .mission .mission-content h1 {
   font-size:3em;
@@ -1053,6 +1085,8 @@ aside .form h3 {
 .mission .mission-paragraph p {
   font-size:1.125em;
 }
+
+/*---CALL TO ACTION AREA----*/
 
 main .call-to-action h2 {
   font-size: 3em;
@@ -1070,6 +1104,8 @@ main .facilitator-info h4 {
   font-size:1.875em;
 }
 
+/*---FOOTER----*/
+
 footer .footer-content h2 {
   font-size: 1.875em;
 }
@@ -1084,6 +1120,7 @@ footer .footer-content p {
 
 /*----------------DESKTOP FAQ----------------*/
 
+/*---FAQ AREA----*/
 
 main .faq-area h1 {
   font-size: 3em;
