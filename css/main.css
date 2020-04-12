@@ -120,11 +120,9 @@ textarea {
     font-weight:normal;
 }
 
- img {
+  img {
    width:100%;
- }
-
-
+}
 
    /*-------------- BASE HEADER --------FOOTER STYLES--------------*/
 
@@ -187,273 +185,6 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     font-weight:700;
 }
- 
-
-   /*-------------- MOBILE STYLES --------HOME PAGE--------------*/
-
-  /*---HERO AREA----*/
-
-.hero-area {
-   display:flex;
-   justify-content:center;
-   flex-flow:row wrap;
-   background-color: #2a423a;/*for now until i place image*/
-   background: url('../img/hero2.jpg');
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height:100%;
-   min-height:28.75em;
-}
-
-.hero-area h1 {
-  color: #e2e3ed;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size:2.25em;
-  width:100%;
-  line-height: 1.3;
-  margin:0;
-}
-
-/*---- ASIDE----*/
-
-aside {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-  background-color:#527158;
-  color:#e2e3ed;
-  padding-bottom: 1.25em;
-}
-
-input[type=text] {
-  box-sizing: border-box;
-  width:100%;
-  color:#2a423a;
-  font-style: italic;
-  padding:1em;
-} 
-
-input[type=button] {
-  width:100%;
-  padding:1.25em 0;
-  margin-top:1.25em;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-aside .form-description h3 {
-  font-size:1.125em;
-}
-
-aside .form-description p {
-  font-size:0.875em;
-}
-
-aside .form h3 {
-  font-size:1.125em;
-}
-
-/*---FEATURE----*/
-
-.features {
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  flex-flow: row wrap;
-  background: url("../img/features.jpg");
-  background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color:#e2e3ed;
-}
-
-.features .content-wrapper h2 {
-  font-size:1.875em;
-  line-height: 1.3;
-}
-
-.features-items {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-  margin:0;
-  padding-bottom:2.5em;
-}
-
-.fontawesome-icon {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.features-items article {
-  width:60%;
-}
-
-.features-items article p {
-  font-size:0.875em;
-}
-
-.features i {        /*for the icons - font awesome*/
-  font-size:3.75em;
-  margin: 0.75em 0 0.5em 0 ;
-}
-
-.features-item-description {
-  text-align: center;
-}
-
-/*---REVIEWS----*/
-
-.reviews {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-  color:#e2e3ed;
-}
-
-.reviews article {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-article figure {
-  width:100%;
-}
-
-.reviews .content-wrapper {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  flex-flow:row wrap;
-}
-
-.reviews .content-wrapper h2 {
-  font-size: 1.875em;
-  margin:0;
-  margin-bottom:0.625em;
-}
-
-.reviews .review-heading h4 {
-  font-size:1.125em;
-  margin:0;
-}
-
-.reviews .review-heading p {
-  font-size:0.875em;
-}
-
-.reviews img {
-  width:100%;
-}
-
-/*--- Footer---*/
-
-.footer-content {
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  color:#e2e3ed;
-  width:100%;
-}
-
-footer .contact {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .contact h2 {
-  font-size:1.125em;
-  font-style: normal;
-  margin-bottom:1.25em;
-}
-
-footer .social h2 {
-  font-size:1.125em;
-  margin:0;
-}
-
-footer .contact p {
-  margin:0;
-}
-
-footer .social {
-  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  padding-top:3.75em;
-}
-
-footer .social-icons {
-  display:flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-icons  i {
-  font-size:2em;
-  margin:0 0.75em;
-  color:#527158;
-}
-
-.copyright {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  color:#e2e3ed;
-  padding:1.875em 0;
-  font-size:0.875em;
-}
-
-
-
-/*-----------------MOBILE ----ABOUT PAGE---------------*/
-
-.mission {
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  background-color:#527158;
-}
-
-.mission .content-wrapper {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  color:#e2e3ed;
-  width:80%;
-  padding:3.125em 0;
-}
-
-.mission .mission-content h1 {
-  font-size:1.875em;
-  line-height: 1.2;
-  margin:0;
-}
-
-.mission .mission-paragraph p {
-  font-size:0.875em;
-  line-height: 1.4;
-}
 
 main {
   display:flex;
@@ -463,78 +194,343 @@ main {
   background-color: #2a423a;
   color:#e2e3ed;
 }
-
-.map-container {
-  margin:0;
-  position: relative;
-  padding-bottom: 125%;
-  height:0;
-  overflow: hidden;
-  width:100%;
-}
-
-.map-container iframe {
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-}
-
+ 
 main .content-wrapper {
   padding:1.25em 0;
 }
 
 
-main .call-to-action h2 {
-  font-size:1.875em;
-  margin:0;
+  /*-------------- MOBILE STYLES --------HOME PAGE--------------*/
+
+  /*---HERO AREA----*/
+
+  .hero-area {
+    display:flex;
+    justify-content:center;
+    flex-flow:row wrap;
+    background-color: #2a423a;/*for now until i place image*/
+    background: url('../img/hero2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    min-height:28.75em;
 }
 
-main .general-info h4 {
+  .hero-area h1 {
+    color: #e2e3ed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:2.25em;
+    width:100%;
+    line-height: 1.3;
+    margin:0;
+}
+
+/*---- ASIDE----*/
+
+  aside {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    background-color:#527158;
+    color:#e2e3ed;
+    padding-bottom: 1.25em;
+}
+
+  aside .form-description h3 {
   font-size:1.125em;
 }
 
-.general-contact-info p {
-  font-size: 0.875em;
+  aside .form-description p {
+    font-size:0.875em;
 }
+
+  aside .form h3 {
+  font-size:1.125em;
+}
+
+  input[type=text] {
+    box-sizing: border-box;
+    width:100%;
+    color:#2a423a;
+    font-style: italic;
+    padding:1em;
+} 
+
+  input[type=button] {
+    width:100%;
+    padding:1.25em 0;
+    margin-top:1.25em;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*---FEATURE----*/
+
+  .features {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-flow: row wrap;
+    background: url("../img/features.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#e2e3ed;
+}
+
+  .features .content-wrapper h2 {
+    font-size:1.875em;
+    line-height: 1.3;
+}
+
+  .features-items {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    margin:0;
+    padding-bottom:2.5em;
+}
+
+  .features-items article {
+    width:60%;
+}
+
+  .fontawesome-icon {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .features i {        /*for the icons - font awesome*/
+    font-size:3.75em;
+    margin: 0.75em 0 0.5em 0 ;
+}
+
+  .features-item-description {
+    text-align: center;
+}
+
+  .features-items article p {
+    font-size:0.875em;
+}
+
+
+/*---REVIEWS----*/
+
+  .reviews {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    color:#e2e3ed;
+}
+
+  .reviews .content-wrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow:row wrap;
+}
+
+  .reviews .content-wrapper h2 {
+    font-size: 1.875em;
+    margin:0;
+    margin-bottom:0.625em;
+}
+
+  .reviews article {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  article figure {
+    width:100%;
+}
+
+  .reviews img {
+    width:100%;
+}
+
+  .reviews .review-heading h4 {
+    font-size:1.125em;
+    margin:0;
+}
+
+  .reviews .review-heading p {
+    font-size:0.875em;
+}
+
+
+/*--- Footer---*/
+
+  .footer-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:#e2e3ed;
+    width:100%;
+}
+
+  footer .contact {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  footer .contact h2 {
+    font-size:1.125em;
+    font-style: normal;
+    margin-bottom:1.25em;
+}
+
+  footer .contact p {
+    margin:0;
+}
+
+  footer .social {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top:3.75em;
+}
+
+  footer .social h2 {
+    font-size:1.125em;
+    margin:0;
+}
+
+  footer .social-icons {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+  footer .social-icons  i {
+    font-size:2em;
+    margin:0 0.75em;
+    color:#527158;
+}
+
+  .copyright {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#e2e3ed;
+    padding:1.875em 0;
+    font-size:0.875em;
+}
+
+
+
+/*-----------------MOBILE ----ABOUT PAGE---------------*/
+
+  .mission {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    background-color:#527158;
+}
+
+  .mission .content-wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#e2e3ed;
+    width:80%;
+    padding:3.125em 0;
+}
+
+  .mission .mission-content h1 {
+    font-size:1.875em;
+    line-height: 1.2;
+    margin:0;
+}
+
+  .mission .mission-paragraph p {
+    font-size:0.875em;
+    line-height: 1.4;
+}
+
+  .map-container {
+    margin:0;
+    position: relative;
+    padding-bottom: 125%;
+    height:0;
+    overflow: hidden;
+    width:100%;
+}
+
+  .map-container iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+  main .call-to-action h2 {
+    font-size:1.875em;
+    margin:0;
+}
+
+  .general-contact-info p {
+    font-size: 0.875em;
+}
+
+  main .general-info h4 {
+    font-size:1.125em;
+}
+
 
 /*---------------- MOBILE FAQ-------------*/
 
-main .faq-area {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow:row wrap;
-  background-color:#527158;
-  padding:0;
+  main .faq-area {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    background-color:#527158;
+    padding-bottom: 1.875em;
 }
 
-main .faq-area .content-wrapper {
-  padding:0;
+  main .faq-area .content-wrapper {
+    padding:0;
 }
 
-main .faq-area {
-  padding-bottom: 1.875em;
+  main .faq-area .faq-h1 {
+    width: 80%;
 }
 
-.faq-area .faq-h1 {
-  width: 80%;
+  main .faq-area .faq-h1 h1 {
+    font-size:1.875em;
+    line-height: 1;
+    font-weight: normal;
 }
 
-.faq-area .faq-h1 h1 {
-  font-size:1.875em;
-  line-height: 1;
-  font-weight: normal;
+  main .faq-area h4 {
+    font-size:1.125em;
+    font-weight:normal;
 }
 
-.faq-area h4 {
-  font-size:1.125em;
-  font-weight:normal;
-}
-
-.faq-area p {
-  font-size: 0.875em;;
+  main .faq-area p {
+    font-size: 0.875em;;
 }
 
 }
@@ -641,6 +637,13 @@ header .content-wrapper {
   padding-top:2.188em;
 }
 
+header figure {
+  width:40%;
+  margin:0;
+  margin-left:4.063em;
+  margin-bottom:2.188em;
+}
+
 header nav {
   justify-content:space-between;
   width:16%;
@@ -656,12 +659,6 @@ a {
   display:none;
 }
 
-header figure {
-  width:40%;
-  margin:0;
-  margin-left:4.063em;
-  margin-bottom:2.188em;
-}
 
 /*---HERO AREA----*/
 
@@ -690,12 +687,12 @@ aside .content-wrapper {
   width:45%;
 }
 
-.form {
-  width: 45%
-}
-
 aside .form-description h3 {
   font-size: 1.5em;
+}
+
+.form {
+  width: 45%
 }
 
 aside .form h3 {
@@ -704,6 +701,11 @@ aside .form h3 {
 
 .features {
   padding:3.125em 0 3.125em 0;
+}
+
+.features .content-wrapper h2 {
+  font-size:2.125em;
+  margin:0;
 }
 
 .features-items {
@@ -718,15 +720,15 @@ aside .form h3 {
   padding:0 3.125em;
 }
 
-.features .content-wrapper h2 {
-  font-size:2.125em;
-  margin:0;
-}
 
 /*---REVIEWS---*/
 
 .reviews {
   padding:5.625em 0 5.625em 0;
+}
+
+.reviews .content-wrapper h2 {
+  font-size:2.25em;
 }
 
 .reviews article {
@@ -736,26 +738,17 @@ aside .form h3 {
   align-items: flex-start;
 }
 
-.reviews .content-wrapper h2 {
-  font-size:2.25em;
-}
-
-.reviews .review-heading h4 {
-  font-size:1.5em;
-}
-
 .reviews figure {
   width:45%;
   margin:0;
 }
-
 .review-heading {
   width:50%;
   margin:0;
 }
 
-.reviews h4 {
-  margin:0 0 1.875em 0;
+.reviews .review-heading h4 {
+  font-size:1.5em;
 }
 
 
@@ -776,10 +769,6 @@ footer .content-wrapper {
   margin: 3.125em; 
 }
 
-.copyright {
-  font-size:0.875em;
-}
-
 footer .contact h2 {
   font-size:1.5em;
   padding-bottom:1.25em;
@@ -789,10 +778,16 @@ footer .contact h2 {
 footer .social h2 {
   font-size: 1.5em;
 }
+
+.copyright {
+  font-size:0.875em;
+}
+
+
 /*----------------TABLET ABOUT PAGE----------------*/
 
 .mission {
- width:100%;
+  width:100%;
 }
 
 .mission .mission-content {
@@ -805,19 +800,13 @@ footer .social h2 {
 
 .mission .mission-content h1 {
   font-size:2.125em;
-  margin-bottom:1.25em;
+  margin-bottom:0.5em;
 }
 
 .mission-paragraph {
   width:45%;
   margin:0;
 }
-
-main {
-  width:100%;
-  background-color:#2a423a;
-}
-
 
 .map-container {
   position: relative;
@@ -835,9 +824,8 @@ main {
   height:100%;
 }
 
-
-.call-to-action {
-  padding: 4.375em 0 4.375em 0;
+main .call-to-action {
+  padding: 4em 0 4em 0;
   color:#e2e3ed;
 }
 
@@ -845,13 +833,13 @@ main .call-to-action h2 {
   font-size: 2.25em;
 }
 
-.general-contact-info {
+main .general-contact-info {
   display:flex;
   justify-content: space-between;
   flex-flow:row wrap;
 }
 
-.general-info {
+main .general-info {
   width:50%;
 }
 
@@ -861,7 +849,6 @@ main .general-info h4 {
 
 main .facilitator-info {
   width:50%;
-
 }
 
 main .facilitator-info h4 {
@@ -874,10 +861,6 @@ body {
   background-color: black;
 }
 
-main .content-wrapper {
-  padding:0;
-}
-
 /*---FAQ AREA---*/
 
 main .faq-area {
@@ -888,24 +871,24 @@ main .faq-area {
   padding: 1.25em 0 1.875em 0;
 }
 
-main .faq-area .content-wrapper {
-  display:flex;
-  justify-content:space-between;
-  flex-flow:row wrap;
-  
-}
-
 main .faq-area .faq-h1 h1 {
   font-size: 2.25em;
   font-weight:700;
 }
 
-main .question h4, p {
- font-size: 0.875em;
+main .faq-area .content-wrapper {
+  display:flex;
+  justify-content:space-between;
+  flex-flow:row wrap;
+  padding:0;
 }
 
 main .question {
   width: 45%;
+}
+
+main .question h4, p {
+ font-size: 0.875em;
 }
 
 /*---FOOTER ---*/
@@ -917,53 +900,57 @@ footer {
 footer .footer-content {
   margin:0;
 }
+
 footer .social {
   padding-top:0;
 }
-
-
 
 }
 
 @media only screen and (min-width: 1200px) {
 
- .hero-area {
-   min-height:37.5em;
- }
+header .content-wrapper {
+  width:80%;
+}
+  
+header figure {
+  width:25%;
+  margin-left:0;
+}
+  
+header figure img {
+  padding-left:0;
+  width:100%;
+}
+  
+header nav {
+  margin-right:0;
+}
 
-  header .content-wrapper {
-    width:80%;
-  }
-  
-  header figure {
-    width:25%;
-    margin-left:0;
-  }
-  
-  header figure img {
-    padding-left:0;
-  }
-  
-  header nav {
-    margin-right:0;
-  }
+a {
+  font-size:1.125em;
+}
 
-  a {
-    font-size:1.125em;
-  }
+.hero-area {
+  min-height:37.5em;
+}
   
-  .hero-area h1 {
-    font-size:3.75em;
-  }
+.hero-area h1 {
+  font-size:3.75em;
+}
   
-  aside {
-    width:100%;
-  }
+aside {
+  width:100%;
+}
   
-  aside .content-wrapper {
-    width:66%;
-    justify-content: space-between;
-  }
+aside .content-wrapper {
+  width:66%;
+  justify-content: space-between;
+}
+
+aside .form-description {
+  width:40%;
+}
 
 aside .form-description h3 {
   font-size:1.875em;
@@ -973,20 +960,12 @@ aside .form-description p {
   font-size:1.125em;
 }
 
-.form h3 {
+aside .form {
+  width:40%;
+}
+
+aside .form h3 {
   font-size:1.875em;
-}
-
-.form-description {
-  width:40%;
-}
-
-.form {
-  width:40%;
-}
-
-.features h2 {
-  font-size:2.25em;
 }
 
 .features {
@@ -1001,15 +980,16 @@ aside .form-description p {
   flex-flow:row wrap;
 }
 
+.features h2 {
+  font-size:2.25em;
+}
+
 .features-items {
   flex-flow:row wrap;
   min-height:37.5em;
   margin-top:3.75em;
   padding-bottom:0;
   max-width: 75em;
-}
-
-.features-items {
   margin:0;
 }
 
@@ -1026,21 +1006,17 @@ aside .form-description p {
   padding:5.625em 0 5.625em 0;
 }
 
+.reviews .content-wrapper h2 {
+  font-size:2.25em;
+  margin-bottom: 0;
+  padding-bottom:2em;
+}
+
 .reviews figure {
   width:45%;
 }
 
-.reviews .content-wrapper h2 {
-  font-size:2.25em;
-  margin-bottom: 0;
-}
-
-.reviews h2 {
-  font-size:2.25em;
-  padding-bottom:2em;
-}
-
-.review-heading {
+.reviews .review-heading {
   width:45%;
 }
 
@@ -1061,13 +1037,15 @@ aside .form-description p {
 
 /*----------------DESKTOP ABOUT----------------*/
 
-.mission .mission-paragraph {
-  width: 45%;
-}
 
 .mission .mission-content h1 {
   font-size:3em;
-  padding-bottom:1em;
+  margin:0;
+  padding-bottom:0.4em;
+}
+
+.mission .mission-paragraph {
+  width: 45%;
 }
 
 .mission .mission-paragraph p {
@@ -1078,16 +1056,16 @@ main .call-to-action h2 {
   font-size: 3em;
 }
 
+main .general-contact-info p {
+  font-size:1.125em;
+}
+
 main .general-info h4 {
   font-size:1.875em;
 }
 
 main .facilitator-info h4 {
   font-size:1.875em;
-}
-
-main .general-contact-info p {
-  font-size:1.125em;
 }
 
 footer .footer-content h2 {
@@ -1120,8 +1098,6 @@ main .question p {
 .copyright {
   padding-top:4.375em;
 }
-
-
 
 }
 
